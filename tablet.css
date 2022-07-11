@@ -1,0 +1,76 @@
+body {
+  width: 100%;
+}
+.link {
+  /* change the display to flex if you want the links to show in mobile view */
+
+  display: none;
+  flex-direction: column;
+  width: 30%;
+  align-items: left;
+  height: 35vh;
+  justify-content: flex-start;
+  color: black;
+  background-color: rgb(156, 8, 8);
+  /* transition: 1s; */
+  /* position: absolute; */
+  z-index: 2;
+  /* top: 0; */
+  /* right: -300px; */
+
+  /* padding-top: 2rem; */
+}
+.icons {
+  display: block;
+  cursor: pointer;
+  margin: 0.7rem 0;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+.link .links a {
+  margin: 0.2rem 0;
+  border-bottom: blue solid 1px;
+}
+.logo {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 5rem 2rem;
+}
+.camp-row {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-sections {
+  width: 85%;
+  margin: 0 auto;
+}
+.hero-section {
+  width: 100%;
+  margin: 0 auto;
+}
+.logo img {
+  margin: 0 0.5rem 1rem 0;
+}
+.spense {
+  width: 85%;
+  width: 0 auto;
+}
+.communities {
+  display: flex;
+  flex-direction: column;
+}
+.communities-col {
+  width: 85%;
+  margin: 0 auto;
+}
+.working {
+  width: 85%;
+}

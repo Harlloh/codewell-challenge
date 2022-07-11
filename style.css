@@ -1,0 +1,150 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+p {
+  color: #838383;
+}
+body {
+  color: white;
+  background-color: #0a0a0b;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+header {
+  width: 85%;
+  margin: 0 auto;
+}
+/* .hamburger {
+  display: none;
+} */
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+
+  justify-content: space-between;
+  margin: 2.8rem 0;
+}
+.link {
+  display: flex;
+  white-space: wrap;
+  justify-content: space-between;
+  width: 60%;
+}
+.icons {
+  display: none;
+}
+
+.container .links a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+.link-button a {
+  text-decoration: none;
+  padding: 1rem 1.5rem;
+  color: black;
+  background-color: #fbe850;
+}
+.hero-sections {
+  display: flex;
+
+  flex-direction: column;
+  margin: 5rem 0;
+  width: 55%;
+  /* flex-wrap: wrap; */
+  /* white-space: wrap; */
+  /* object-fit: contain; */
+}
+.hero-section {
+  width: 85%;
+  margin: 0 auto;
+}
+.hero-section h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+.hero-section p {
+  line-height: 1.5rem;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin: 0 auto;
+}
+.camp-row {
+  display: flex;
+  width: 85%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.spense {
+  width: 45%;
+  margin: 5rem 0;
+  font-weight: 0px;
+}
+.spense img {
+  width: 100%;
+}
+.spense a {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+}
+.spense h1 {
+  margin: 1rem 0;
+}
+.communities {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin: 0 auto;
+}
+.communitie {
+  background-color: #2e3038;
+}
+.communities-col {
+  width: 45%;
+  padding: 3rem 0;
+}
+.work {
+  width: 85%;
+  margin: 0 auto;
+  /* line-height: 1.5rem; */
+}
+.working {
+  width: 45%;
+  padding: 5rem 0;
+}
+.working h1 {
+  font-size: 2.3rem;
+  margin-bottom: 0.7rem;
+}
+.working p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+.working a {
+  text-decoration: none;
+  padding: 1rem 1.5rem;
+  color: black;
+  background-color: #fbe850;
+}
+footer {
+  background-color: #2e3038;
+}
+.content {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 0;
+}
+/*# sourceMappingURL=style.css.map */

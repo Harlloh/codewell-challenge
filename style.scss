@@ -1,0 +1,46 @@
+* {
+  background: $primarycolor;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+$primarycolor: #0a0a0b;
+body {
+  width: 85%;
+  background-color: $primarycolor;
+
+  margin: 0 auto;
+  color: white;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+  .links {
+    a {
+      color: white;
+      margin: 0 1rem;
+      // text-decoration: none;
+    }
+  }
+}
+.container .link-button a {
+  color: $primarycolor;
+  text-decoration: none;
+  padding: 2rem;
+}
+
+.hero-section {
+  display: flex;
+}
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  /* line-height: 1.5rem; */
+  /* flex-wrap: wrap; */
+  /* white-space: wrap; */
+  /* object-fit: contain; */
+  background-color: rgb(230, 0, 0);
+  outline: white solid 1px;
+}
